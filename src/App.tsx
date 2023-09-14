@@ -8,19 +8,19 @@ function App() {
       username: "Maria",
       comment:
         "I was very glad to have you after such a long time. Can you plan a meetup? Maybe this weekend?",
-      imgURL: "/images/user1.png",
+      imgURL: "./images/user1.png",
     },
     {
       username: "Alex Benjamin",
       comment:
         "Home sweet home! I'm glad you are back. It's been two year and miss the football matches we have together. A lot has been changed since you left. Let's meet at the ground tomorrow evening?",
-      imgURL: "/images/user2.png",
+      imgURL: "./images/user2.png" ,
     },
     {
       username: "Tania",
       comment:
         "Hey bud, welcome back to home. It's so long to see you back again. Would love to hear the travelling stories of yours. Your or my place?",
-      imgURL: "/images/user3.png",
+      imgURL: "./images/user3.png",
     },
   ]);
 
@@ -36,7 +36,7 @@ function App() {
       {
         username: "John Doe",
         comment: "Thank you all!",
-        imgURL: "/images/user4.png",
+        imgURL: "./images/user4.png",
         creator: true,
       },
     ]);
